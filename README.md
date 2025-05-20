@@ -46,7 +46,7 @@ Ganti `https://github.com/username/repo-anda.git` dengan URL repository GitHub A
 
 2. **Install dependencies**
     ```bash
-    pip install -r requirements.txt
+    pip3 install -r requirements.txt
     ```
 
 3. **Siapkan file konfigurasi**
@@ -63,7 +63,7 @@ Ganti `https://github.com/username/repo-anda.git` dengan URL repository GitHub A
           "regular_daily_limit": 10,
           "premium_daily_limit": 100
         },
-        "check_cooldown": 1
+        "check_cooldown": 3
       }
       ```
     - Jika **sudah punya** file `admin.json`, **jangan lupa edit dulu** agar sesuai dengan token dan admin id Anda:
@@ -81,7 +81,7 @@ Ganti `https://github.com/username/repo-anda.git` dengan URL repository GitHub A
 
 4. **Jalankan bot**
     ```bash
-    python bot.py
+    python3 bot.py
     ```
     Atau jalankan di background:
     ```bash
